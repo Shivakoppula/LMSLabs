@@ -1,0 +1,88 @@
+{
+  "info": {
+    "_postman_id": "425dfdb7-4951-4eca-bb88-8b90b7db4528",
+    "name": "Devices",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47784625",
+    "_collection_link": "https://go.postman.co/collection/47784625-425dfdb7-4951-4eca-bb88-8b90b7db4528?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Root_Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GetAll_Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "htpp://127.0.0.1:8000/products",
+          "protocol": "htpp",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Post_Product",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "htpp://127.0.0.1:8000/products",
+          "protocol": "htpp",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update_Device_By_ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}

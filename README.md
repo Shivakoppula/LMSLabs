@@ -27,7 +27,7 @@ Open `http://127.0.0.1:8000/docs`, expand an endpoint, select **Try it out**, en
 
 ```json
 {
-	"customer_name": "Anu",
+	"customer_name": "Shiva",
 	"items": [
 		{"name": "Notebook", "quantity": 2, "unit_price": 50},
 		{"name": "Pen", "quantity": 1, "unit_price": 20}
